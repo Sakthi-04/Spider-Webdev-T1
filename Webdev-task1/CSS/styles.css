@@ -1,0 +1,99 @@
+body {
+  background-color: #F65A83;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  padding: 10px 0;
+}
+
+#top-part {
+  padding: 0 5%;
+}
+
+.container {
+  width: 100%;
+}
+
+.header {
+  color: white;
+  background-color: #B93160;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.players {
+  color: black;
+  font-size: 2rem;
+  margin: 10px auto;
+  font-family: "Montserrat";
+}
+
+#player1 {}
+#player2 {}
+
+#player1button {
+  display: none;
+  margin: 15px auto 0;
+}
+
+#player2button {
+  display: none;
+  margin: 15px auto 0;
+}
+
+#number1 {
+  color: black;
+  font-size: 40px;
+  /* text-align: left; */
+}
+  
+#number2 {
+  color: black;
+  font-size: 40px;
+  /* text-align: right; */
+}
+
+#player1wins {
+  display: none;
+  font-size: 30px;
+}
+
+#player2wins {
+  display: none;
+  font-size: 30px;
+}
+
+/* Table contents */
+
+#tables {
+  padding: 4% 5%;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  padding: 10% 5%;
+}
+
+table, th, td {
+  border: 3px solid black;
+  height: 75%;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+tr:nth-child(odd) {
+  background-color: #CA4E79;
+}
+
+tr:nth-child(even) {
+  background-color: #FF869E;
+}
+
+img {
+  height: 60px;
+}
